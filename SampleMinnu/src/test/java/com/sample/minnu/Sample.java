@@ -1,13 +1,20 @@
 package com.sample.minnu;
 
+import org.testng.annotations.Test;
+
 public class Sample {
 
-
-	public static void main(String[] args) {
+@Test
+public void SampleTest() {
 
 		System.out.println("Testing-----1");
 		System.out.println("Testing-----2");
 		System.out.println("Git Pull Request");
+		System.out.println("Git Pull Request");
+		System.out.println("Git Pull Request");
+		System.out.println("Git Pull Request");
+		System.out.println("Git Pull Request");
+
 
 	}
 
