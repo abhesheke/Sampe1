@@ -30,6 +30,9 @@ public class SampleWebDriver01 {
 		Thread.sleep(5000);
 		driver.findElement(By.linkText("Software testing - Wikipedia")).click();
 		Assert.assertEquals("Software testing - Wikipedia-1", driver.getTitle());
+		
+		
+		System.out.println("Added Space");
 	//	System.out.println("Page Title "+driver.getTitle());
 
 	}
